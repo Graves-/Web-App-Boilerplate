@@ -1,0 +1,69 @@
+/* Variables */
+@background-color: #ffffff;
+@text-color: #1A137E;
+
+p{
+	background-color: red;
+	color: @text-color;
+}
+
+ul{
+	background-color: @background-color;
+}
+
+li{
+	color: @text-color;
+}
+
+
+/* Nesting */
+/*
+ul{
+  background-color: #03A9F4;
+  padding: 10px;
+  list-style: none;
+
+  li{
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 10px 0;
+  }
+}
+*/
+
+/* Operations */
+
+/*
+@div-width: 100px;
+@color: #03A9F4;
+
+div{
+  height: 50px;
+  display: inline-block;
+}
+
+#left{
+  width: @div-width;
+  background-color: @color - 100;
+}
+
+#right{
+  width: @div-width * 2;
+  background-color: @color;
+}
+*/
+
+/* Functions */
+/*
+@var: #004590;
+
+div{
+  height: 50px;
+  width: 50px;
+  background-color: @var;
+
+  &:hover{
+    background-color: fadeout(@var, 50%)
+  }
+}
+*/
